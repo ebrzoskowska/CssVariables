@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background: #000;
+  color: white;
+  font-family: 'BioRhyme Expanded', serif;
+  font-size: 30px;
+}
+
+:root {
+  --base             : #ffffff; 
+  --caption          : #76aec9;
+  --spacing          : 10px;
+  --blur             : 10px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.highlight {
+  color: var(--caption);
+}
